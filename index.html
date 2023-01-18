@@ -4,16 +4,27 @@
   <head>
        <title>My blog</title>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
     <link href="styles/main.css" rel="stylesheet" type="text/css">
   </head>
   <body>
    
-    <div>
-    <h1 id="intro">Ahmad's Blog</h1> 
-    <p class="main"> This is the beginning of my website home page. It will eventually contain a list of links to all my blogs. This page contains:</p>
   
-    <ul>
+    <h1 id="intro">Ahmad's Blog</h1> 
+    
+    <div class="nav">
+      <ul>
+        <li><a href="#abot-me">about this blog</a></li>
+        <li><a href="#first-section">Core Concepts</a></li>
+        <li><a href="#first-section">Technical Concepts</a></li>
+        <li><a href="#memes">memes of the day</a></li>
+      </ul>
+    </div>
+     
+      <div id="about-me">
+      <p class="main"> This is the beginning of my website home page. It will eventually contain a list of links to all my blogs. This page contains:</p>
+      <ul class="list-blog">
       <li>Some information about me.</li>
       <li>reflections on:
         <ol>
@@ -24,7 +35,7 @@
    
     </div>
 
-    <div class="first-section">
+    <div class="first-section" id="first-section">
       
       <h2 class="headings">This link will <a href="blog/blog-1.html"><span style=" font-family: 'Playfair Display', serif;">take you to the first blog</span></a> in the foundation section of my journey</h2>
         <p> You will find answer to the core questions for sprint 1 of this course. </p>
@@ -39,7 +50,7 @@
 
     </div>
 
-    <div>
+    <div id="memes">
       <p style="font-size: 20px; color: aqua;"> Here are some memes to brighten up your day!</p>
       <img class="imgs" src="https://www.liveabout.com/thmb/qZTUolJiUYLIV0KrbiF4F4dbx40=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/aliens1-5ad5062f3037130037462d1c.jpg" alt="aline meme"><br> <br><br><br>
       <img class="imgs" src="https://github.com/ahmad-saleem-23/sprint-1-workshop/blob/main/326070420_874923900505608_3282797745426691773_n.jpg?raw=true" alt="cat meme">
