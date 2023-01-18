@@ -4,17 +4,29 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-size: 100% 100%;
+  text-align: justify;
+}
+
+.blog-1{
+  background-image: url(https://raw.githubusercontent.com/ahmad-saleem-23/sprint-1-workshop/main/lautaro-andreani-JT36O_XBGJ0-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-size: 100% 100%;
 }
 
 #intro {
   text-align: center;
   color: rgb(44, 139, 57);
   font-size: 50px;
-  font-family: 'Playfair Display', serif;;
+  font-family: 'Playfair Display', serif;
   background-attachment: fixed;
   background-color: #000;
   opacity: 0.7;
-  margin: 0 -100 0 -100 ;
+  margin-left: -100px;
+  margin-right: -100px;
+  position: sticky;
+  top: 20px;
 }
 
 .main {
@@ -22,13 +34,82 @@ body {
   font-size: 20px;
   color: #fff;
 }
+
 ul {
   background-color: antiquewhite;
   opacity: 0.7;
 }
+
+.first-section{
+  
+  color: rgb(243, 235, 235);
+  background-color: rgba(150, 33, 39, 0.3);
+}
+
+.headings{
+  font-size: 18px;
+}
+
 .questions {
-  color: chartreuse;
-  font-size: 20px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  background-color: rgba(246, 247, 239, 0.5);
+   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
   
+}
+
+.answers {
+  font-size: 18px;
+  color: #fff;
+ }
+
+a{
+color: rgb(141, 141, 243);
+
+}
+
+a:active {
+  color: red;
+}
+
+.end {
+ float: right;
+}
+
+.imgs{
+  max-width: 100%;
+  height: auto;
+}
+
+.author{
+  width: 100px;
+  border-color: rgb(12, 12, 12);
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 50%
+}
+
+/* Styles for screens smaller than 320px */
+@media only screen and (max-width: 320px) {
+ p{
+  font-size: 14px !important;
+   }
+   .questions{
+    font-size: 16px;
+   }
+}
+
+/* Styles for screens between 320px and 768px */
+@media only screen and  (min-width: 320px) and (max-width: 768px) {
+  P{font-size: 16px !important;
+  }
+  .questions{
+    font-size: 16px;
+  }
+}
+
+/* Styles for screens larger than 768px */
+@media only screen and  (min-width: 768px) {
+/* nothing spacific 'will try this on imgs later on' */
 }
