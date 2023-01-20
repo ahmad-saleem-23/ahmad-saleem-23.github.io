@@ -14,7 +14,10 @@ body {
   background-size: cover;
   background-size: 100% 100%;
 }
-
+.memes-body{
+  background-image: none;
+  background-color: black;
+}
 .tech-blogs{
 
   background-color: wheat;
