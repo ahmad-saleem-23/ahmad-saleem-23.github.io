@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+       <title>JavaScript (“JS”) Fundamentals
+      </title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+    <link href="../styles/main.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body class="tech-blogs">
+  
+    <h1 id="intro">Ahmad's Blog</h1> 
+  
+    <div class="nav">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../blog/ladning-page-CoreBlog.html">Core Concepts</a></li>
+          <li><a href="../blog/tech-blog-1.html">Tech Blogs</a></li>
+          <li><a href="../extra-pages/memes.html">memes of the day</a></li>
+        </ul>
+    </div>
+<div class="tech-body">
+  <h2>JavaScript (“JS”) Fundamentals</h2>
+<p> This blog will give a general understanding over:<ul>
+    <li> JavaScript and its relationship to HTML and CSS</li>
+    <li>Control flow and loops, arrays, and objects</li>
+    <li> Functions and why they are useful</li>
+    <li>The DOM and DevTools</li></ul></p>
+    
+    <div>
+      <h3> JS relation to HTML and CSS:</h3>
+<p>JS can be described as the logic of your page, and it determines how the page will behave. JS define the way a user will interact with the page. 
+JS is what gives web pages their interactivity functions, such as auto-filling, page updates, error messages, and so on. JS is a tool that provides developers with functions that elevate the users' experience when using a website.</p>
+
+    </div>
+
+   <div>
+    <h3>Control Flow</h3>
+    <p>If you think about the flow that a JS is executed, it will be from top to bottom, similar to a river flowing in one direction. However, what if we want to have a function or a part executed multiple times or be executed at a certain time or in a certain fashion? This is where control Flow comes into play, as it helps the program to execute a code in the way it is needed, similar to a dam that regulates and controls the flow of the river.<br><br>
+    JS contains certain conditional statements and loops in its arsenal, which gives the developer tools to control the flow of the code. Here control flow is how we determine the order in which the code is run. There are many examples of how we can use the control flow, and in many cases, it will depend on the need of the developer. <br><br>
+    Some of these tools are: <ul><li>
+    Conditional statements [if else]: this statement checks if a condition is satisfied then runs a certain code depending on the outcome of that condition</li>
+    <li>Loops [for loop]: it allows the developer to run a certain task over and over with less code, or compile a list of items, and hence saving time and keeping the code tidy </li></ul> </p>
+    
+        
+      </div>
+    <div>
+       <h3>The DOM </h3>
+       <p>DOM is short for the Document Object Model, it is considered the glue that ties HTML, CSS, JS together. The DOM is a data representation of the objects contained in a webpage. The DOM represents the page as a programming interface that allows the programmer to manipulate the structure of the page using JS. Hence, it provides JS with a tool to modify its contents as well as HTML and CSS content.<br><br>
+       It is hard to go too far in building a webpage without interacting with the DOM or having to use its tools. Consider the DOM to be your remote control where you can change the continents of your webpage without having to go through all the code. For example, let us say you want to change the content of what is said in a certain section on your page; then you would use the line [innerHTML] and insert a new line, then Voilà you have modified the page.</p>
+       
+       </div>
+      
+       <div>
+        <h3>Objects vs. Arrays</h3>
+        <p><h4>Objects</h4>
+        <p>Objects are a special data type which is usually used to store a collection of data (rather than just a single value). Objects can be used to contain “things” that can be made up or defined by a set of characteristics. Object characteristics are referred to as properties which consist of a key and a value. This is an example of how an object would look like:<br><br>
+         let object = {key1: ‘value1’, key2: ‘value2’, …}<br><br>
+        To access data (also add, remove, or modify) from an object, we use either dot or bracket notations. For example, to get the value of key2 from the previous example, we write <br><br>
+        <div>
+        // Dot notation <br>
+        object.Key2 	// returns value2<br>
+        
+        // Bracket notation<br>
+        object['Key2’'] 	// returns value2</div>
+        </p>
+        
+        <h4>Arrays</h4>
+        <p>Arrays is also a special type of data. However, it is often used to store a list of values. It can create and store a list of multiple items in a single variable. If we want to make an ordered collection of values, we would use arrays. These values can be accessed by their position in the list; however, you will have to note that we start counting from 0, not 1.<br><br>
+        Arrays can consist of strings, numbers, booleans, objects, or even other arrays. To access an array, we have to ask for the index position of the value we want. For example, we have the following array: arr = [‘value1’, ’value2’, ’value3’, …], the index of these arrays would be as follows arr = [0 ,1, 2, 3, …]. <br><br>So if we want to get value3 we have to ask for its index position as follows, arr[3]; // which will return value3. </p>
+        
+        
+</div>
+<div><h3>Functions</h3>
+  <p> Functions are bits of code that are responsible for a certain task which they do over and over again. If a programmer, for example, wants to have numbers throughout his work “to add up, multiply, then be divided and finally give the outcome in a different colour”, then they will have to write that bit of code every single time they want this to happen. This will certainly work, however, it will be too inconvenient if they want to change something, as they will have to do it manually throughout the entire code. In this case, we can use functions where make a chunk of code which will do the whole process to the value it is given once it is called. Hence, the developer will not need to rewrite the code over and over again, and it will be useful as they can make changes to the main function and accordingly be applied to the whole code.<br><br><br></p></div>
+  
+  <div>
+    <img class="author" src="https://github.com/ahmad-saleem-23/sprint-1-workshop/blob/main/84806659-5E13-4520-96D9-D73A09F1B046.jpg?raw=true" alt="author">
+    <p>Ahmad Saleem<br>
+      1/19/2022</p>
+  </div>
+  
+  <div class="end">
+    <footer>
+      <a href="../index.html"><button style=" font-family: 'Playfair Display', serif;">back to the main page</button></a>
+   
+    </footer>
+  </div>
+
+ 
+  </body>
+</html>
