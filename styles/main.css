@@ -1,19 +1,19 @@
 body {
   background-image: url('https://github.com/ahmad-saleem-23/sprint-1-workshop/blob/main/84806659-5E13-4520-96D9-D73A09F1B046.jpg?raw=true');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
-  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
   text-align: justify;
 }
 
 .blog-1{
   background-image: url(https://raw.githubusercontent.com/ahmad-saleem-23/sprint-1-workshop/main/lautaro-andreani-JT36O_XBGJ0-unsplash.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
-  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  text-align: justify;
 }
+
 .memes-body{
   background-image: none;
   background-color: black;
