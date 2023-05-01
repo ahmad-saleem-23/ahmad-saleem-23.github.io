@@ -92,11 +92,11 @@ body {
   flex-basis: calc(33.33% - 40px);
   text-align: center;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.5);  
+  box-shadow: 0 0 10px rgba(187, 107, 15, 0.5);  
   transition: box-shadow 0.3s ease-in-out;
 }
 .landing-core li:hover{
-  box-shadow: 0 0 20px rgba(0,0,0,0.6);
+  box-shadow: 0 0 20px rgba(185, 92, 16, 0.6);
 }
 
 
@@ -185,6 +185,8 @@ button:hover {
   background-color: #fff;
   color: #000;
 }
+
+
 
 /* Styles for screens smaller than 320px */
 @media only screen and (max-width: 320px) {
