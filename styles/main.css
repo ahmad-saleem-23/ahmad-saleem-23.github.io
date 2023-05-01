@@ -188,9 +188,7 @@ a:active {
 .tech-body{
   padding: 20px;
 }
-#memes{
-text-align: center;
-}
+
 
 /* Styles for screens smaller than 320px */
 @media only screen and (max-width: 320px) {
