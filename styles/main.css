@@ -79,6 +79,11 @@ body {
   text-align: center;
 }
 
+.main ul {
+  list-style: none;
+}
+
+
 img {
   cursor: pointer;
   height: auto;
