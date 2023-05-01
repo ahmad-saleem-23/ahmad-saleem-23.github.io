@@ -80,7 +80,11 @@ body {
   margin: auto;
   max-width: 800px;
   padding: 20px;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .main ul {
@@ -101,6 +105,8 @@ img {
   width: 460px;
   height: 564px;
   padding: 20px;
+  display: flex;
+  justify-content: center;
   text-align: center;
 }
 
