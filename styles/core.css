@@ -72,7 +72,12 @@ body {
   align-items: center;
   flex-wrap: wrap;
 }
-
+.landing-core ul{
+  list-style: none;
+  margin: 0; 
+  padding: 0; 
+  display: flex; 
+}
 .landing-core li {
   margin: 20px;
   background-color: rgba(150, 33, 39, 0.7);
