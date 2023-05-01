@@ -94,9 +94,6 @@ img {
   transition: transform 0.5s ease-in-out;
 }
 
-img:hover {
-  transform: rotateY(180deg);
-}
 
 .image-container {
   position: relative;
