@@ -108,10 +108,11 @@ img {
   color: white;
   font-size: 24px;
   margin: auto;
- 
+  width: 460px;
+  height: 564px;
   padding: 20px;
   text-align: center;
-  position: relative;
+  position: absolute;
   top: 50%;
   background-color: #493333;
   opacity: 0.5;
