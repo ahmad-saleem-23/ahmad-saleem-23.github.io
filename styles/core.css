@@ -195,49 +195,74 @@ button:hover {
 }
 
 
-
 /* Styles for screens smaller than 320px */
 @media only screen and (max-width: 320px) {
- p{
-  font-size: 14px !important;
-   }
-   .questions{
+  p {
+    font-size: 14px !important;
+  }
+  .questions {
     font-size: 16px;
-   }
-   .tech-img{
+  }
+  .tech-img {
     width: 75%;
   }
   div {
     font-size: 14px;
   }
-  .grid{
+  .grid {
     display: inline;
   }
-  .img-smaller{
+  .img-smaller {
     width: 40vw;
+  }
+  /* adjust nav bar */
+  .navbar {
+    width: 100%;
+    padding: 0 10px;
+  }
+  .navbar a {
+    font-size: 14px;
+    padding: 10px;
   }
 }
 
 /* Styles for screens between 320px and 768px */
-@media only screen and  (min-width: 320px) and (max-width: 768px) {
-  P{font-size: 16px !important;
-      }
-  .questions{
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  p {
+    font-size: 16px !important;
+  }
+  .questions {
     font-size: 16px;
   }
-  .tech-img{
+  .tech-img {
     width: 75%;
   }
   div {
     font-size: 16px;
   }
-  .img-smaller{
-    width: 40vw;}
-    .grid{
-      display: inline;
-}}
+  .img-smaller {
+    width: 40vw;
+  }
+  /* adjust nav bar */
+  .navbar {
+    width: 100%;
+    padding: 0 20px;
+  }
+  .navbar a {
+    font-size: 16px;
+    padding: 20px;
+  }
+}
 
 /* Styles for screens larger than 768px */
-@media only screen and  (min-width: 768px) {
-/* nothing spacific 'will try this on imgs later on' */
+@media only screen and (min-width: 768px) {
+  /* adjust nav bar */
+  .navbar {
+    width: 100%;
+    padding: 0 40px;
+  }
+  .navbar a {
+    font-size: 18px;
+    padding: 30px;
+  }
 }

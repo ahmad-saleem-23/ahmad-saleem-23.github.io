@@ -192,3 +192,75 @@ button:hover {
 .img-smaller {
   max-width: 60%;
 }
+
+
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  #intro {
+    font-size: 30px;
+    margin-left: -50px;
+    margin-right: -50px;
+  }
+
+  .nav {
+    font-size: 16px;
+    height: 40px;
+  }
+
+  .nav li {
+    margin-right: 20px;
+  }
+
+  .tech-body {
+    padding: 30px;
+  }
+
+  .tech-body h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+
+  .tech-body h3 {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 8px;
+  }
+
+  .flex-item {
+    padding: 15px;
+  }
+
+  .img-smaller {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  /* CSS rules for mobile phones */
+  body {
+    font-size: 14px;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  /* adjust image sizes as needed */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 319px) {
+  /* CSS styles for devices smaller than 320px */
+  body {
+    font-size: 12px;
+  }
+  /* Adjust image size */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
