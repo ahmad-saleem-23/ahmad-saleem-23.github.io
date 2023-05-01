@@ -114,7 +114,8 @@ img {
   text-align: center;
   position: relative;
   top: 50%;
-  opacity: 1;
+  background-color: #493333;
+  opacity: 0.5;
   z-index: 1;
 }
 
