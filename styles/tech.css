@@ -159,14 +159,14 @@ button:hover {
 
 .left-side{
   margin: 0;
-  width: 40%;
+
  
 }
 .right-side{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 50%;
+ 
   
 
 }
