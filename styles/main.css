@@ -75,6 +75,7 @@ body {
 
 .main {
   background-color: rgba(150, 33, 39, 0.3);
+  color: var(--secondary-color);
   margin: auto;
   max-width: 800px;
   padding: 20px;
