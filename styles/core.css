@@ -66,9 +66,20 @@ body {
 
 
 
-.landing-core{
+.landing-core {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.landing-core li {
+  margin: 20px;
+  background-color: rgba(150, 33, 39, 0.7);
+  border-radius: 5px;
+  padding: 20px;
+  flex-basis: calc(33.33% - 40px);
   text-align: center;
-  list-style: none;
 }
 
 
