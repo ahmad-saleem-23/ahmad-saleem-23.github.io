@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html>
   <head>
     <title>My blog</title>
@@ -23,23 +22,38 @@
       </ul>
     </div>
      
-      <div id="about-me" class="main">
-      <p > My name is Ahmad Saleem i am part of the online intake for DevAcademy. That is me in the background. Brace yourself !! these pages, fonts, and colors are all over the place for the sake of practice.<br>
+    <div id="about-me" class="main">
+      <p>My name is Ahmad Saleem i am part of the online intake for DevAcademy. That is me in the background. Brace yourself !! these pages, fonts, and colors are all over the place for the sake of practice.<br>
         This is the beginning of my website home page. It will eventually contain a list of links to all my blogs. This page contains:
-      <ul>
-      <li>Some information about me.</li>
-      <li>reflections on:
-        <ol>
-          <li>tecnical challenges; and</li>
-          <li>core challenges</li></ol>
-      </li>
-    </ul></p>
-    <div> <img src="https://github.com/ahmad-saleem-23/sprint-1-workshop/blob/main/ezgif.com-gif-maker.gif?raw=true" alt="my journy"></div>
-      
+        <ul>
+          <li>Some information about me.</li>
+          <li>reflections on:
+            <ol>
+              <li>tecnical challenges; and</li>
+              <li>core challenges</li>
+            </ol>
+          </li>
+        </ul>
+      </p>
+      <div class="image-container">
+        <button id="toggle-button">Press here to see my life journey</button>
+        <img src="https://github.com/ahmad-saleem-23/sprint-1-workshop/blob/main/ezgif.com-gif-maker.gif?raw=true" alt="my journey" id="journey-image">
+      </div>
+    </div>
+    
+    <script>
+      const button = document.getElementById('toggle-button');
+      const image = document.getElementById('journey-image');
+
+      button.addEventListener('click', () => {
+        if (image.style.display === 'none') {
+          image.style.display = 'block';
+          button.innerText = 'Hide my life journey';
+        } else {
+          image.style.display = 'none';
+          button.innerText = 'Press here to see my life journey';
+        }
+      });
+    </script>
   </body>
 </html>
-
-
-
-
-
