@@ -96,10 +96,18 @@ body {
   transition: box-shadow 0.3s ease-in-out;
 }
 .landing-core li:hover{
-  box-shadow: 0 0 20px rgba(185, 92, 16, 0.6);
+  box-shadow: 0 0 20px rgba(185, 92, 16, 0.8);
 }
 
-
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
 
 #core-Qs{
   padding-top: 120px;
