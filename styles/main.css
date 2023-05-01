@@ -76,6 +76,7 @@ body {
 .main {
   background-color: rgba(150, 33, 39, 0.3);
   color: var(--secondary-color);
+  font-size: 20px;
   margin: auto;
   max-width: 800px;
   padding: 20px;
