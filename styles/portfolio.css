@@ -1,3 +1,16 @@
+:root {
+  --main-color: #000;
+  --secondary-color: #fff;
+  --background-image: url('https://github.com/ahmad-saleem-23/sprint-1-workshop/blob/main/keith-misner-h0Vxgz5tyXA-unsplash.jpg?raw=true');
+}
+body {
+  background-image: url(https://raw.githubusercontent.com/ahmad-saleem-23/sprint-1-workshop/main/lautaro-andreani-JT36O_XBGJ0-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  text-align: justify;
+}
+
 #intro {
   text-align: center;
   color: #fff;
