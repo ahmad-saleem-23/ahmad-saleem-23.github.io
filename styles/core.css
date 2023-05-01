@@ -8,16 +8,16 @@ body {
 
 #intro {
   text-align: center;
-  color: rgb(44, 139, 57);
+  color: #fff;
   font-size: 50px;
   font-family: 'Playfair Display', serif;
-  background-attachment: fixed;
   background-color: #000;
   opacity: 0.7;
   margin-left: -100px;
   margin-right: -100px;
   position: sticky;
-  top: 20px;
+  top: 0;
+  z-index: 1;
 }
 .nav {
   font-size: 20px;
