@@ -138,6 +138,16 @@ a:active {
   padding: 20px;
 }
 
+.end {
+  margin-top: 50px;
+  text-align: center;
+}
+
+footer {
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
 
 /* Styles for screens smaller than 320px */
 @media only screen and (max-width: 320px) {
