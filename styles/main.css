@@ -113,7 +113,7 @@ img:hover {
   height: 564px;
   padding: 20px;
   text-align: center;
-  position: relative;
+  position: absolute;
   top: 50%;
   transform: translateY(-50%);
   opacity: 1;
