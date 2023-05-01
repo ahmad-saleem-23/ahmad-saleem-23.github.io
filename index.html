@@ -36,23 +36,24 @@
           </li>
         </ul>
       </p>
-      <div class="image-container">
+      <div id="image-container" class="image-container">
+        <div id="image-placeholder"></div>
         <img src="https://github.com/ahmad-saleem-23/sprint-1-workshop/blob/main/ezgif.com-gif-maker.gif?raw=true" alt="my journey" id="journey-image">
       </div>
-      <button id="toggle-button">Press here to see my life journey</button>
-    </div>
     <script>
-      const button = document.getElementById('toggle-button');
-      const image = document.getElementById('journey-image');
-      button.addEventListener('click', () => {
-        if (image.style.display === 'none') {
-          image.style.display = 'block';
-          button.innerText = 'Hide my life journey';
-        } else {
-          image.style.display = 'none';
-          button.innerText = 'Press here to see my life journey';
-        }
-      });
+    const imageContainer = document.getElementById('image-container');
+const imagePlaceholder = document.getElementById('image-placeholder');
+const journeyImage = document.getElementById('journey-image');
+
+imageContainer.addEventListener('click', () => {
+  if (journeyImage.style.display === 'none') {
+    journeyImage.style.display = 'block';
+    imagePlaceholder.style.display = 'none';
+  } else {
+    journeyImage.style.display = 'none';
+    imagePlaceholder.style.display = 'block';
+  }
+});
     </script>
   </body>
 </html>
