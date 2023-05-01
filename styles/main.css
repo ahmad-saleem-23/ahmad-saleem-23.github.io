@@ -94,6 +94,8 @@ body {
 
 
 img {
+  display: block;
+  margin: 0 auto;
   cursor: pointer;
   height: auto;
   max-width: 100%;
