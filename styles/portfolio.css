@@ -1,17 +1,24 @@
 :root {
   --main-color: #000;
   --secondary-color: #fff;
-  --background-image: url('https://github.com/ahmad-saleem-23/sprint-1-workshop/blob/main/keith-misner-h0Vxgz5tyXA-unsplash.jpg?raw=true');
+  --background-image: url('your-background-image-url');
 }
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
 body {
   background-image: var(--background-image);
-  background-size: 100% 100%;
+  background-size: contain;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
   text-align: justify;
   padding: 0;
   margin: 0;
 }
+
 
 #intro {
   text-align: center;
