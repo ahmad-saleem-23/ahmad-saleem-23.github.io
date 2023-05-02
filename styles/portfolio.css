@@ -1,7 +1,7 @@
 :root {
   --main-color: #000;
   --secondary-color: #fff;
-  --background-image: url('https://github.com/ahmad-saleem-23/sprint-1-workshop/blob/main/keith-misner-h0Vxgz5tyXA-unsplash.jpg?raw=true');
+  --background-image: url('https://github.com/ahmad-saleem-23/sprint-1-workshop/blob/main/john-towner-3Kv48NS4WUU-unsplash.jpg?raw=true');
 }
 
 html, body {
@@ -11,7 +11,7 @@ html, body {
 
 body {
   background-image: var(--background-image);
-  background-size: contain;
+  background-size: auto ;
   background-repeat: no-repeat;
   background-position: center;
   text-align: justify;
