@@ -85,7 +85,9 @@ body {
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(230, 215, 8, 0.2);
-  transition: box-shadow 0.3s ease-in-out;}
+  transition: box-shadow 0.3s ease-in-out;
+  margin: 100px;
+  text-align: justify;}
 .firs-project{}
 .seconed-project{}
 .third-project{}
