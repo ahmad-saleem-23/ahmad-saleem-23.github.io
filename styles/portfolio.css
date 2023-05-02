@@ -136,7 +136,7 @@ body {
   width: 20px;
 }
 .subminder-img{
-  width: 950px;
+  width: 100%;
 }
 
 .logo-2:hover{
@@ -169,3 +169,86 @@ footer {
   font-size: 24px;
   margin-bottom: 20px;
 }
+
+/* media queries for tablets */
+@media (max-width: 768px) {
+  #intro {
+  font-size: 30px;
+  margin-left: -50px;
+  margin-right: -50px;
+  }
+  
+  .nav {
+  font-size: 16px;
+  top: 60px;
+  }
+  
+  .nav li {
+  margin-right: 20px;
+  }
+  
+  .about-me,
+  .firs-project,
+  .seconed-project,
+  .third-project {
+  margin: 50px;
+  }
+  
+  .subminder-img {
+  width: 100%;
+  }
+  }
+  
+  /* media queries for phones */
+  @media (max-width: 480px) {
+  #intro {
+  font-size: 24px;
+  margin-left: -30px;
+  margin-right: -30px;
+  }
+  
+  .nav {
+  font-size: 14px;
+  top: 50px;
+  }
+  
+  .nav li {
+  margin-right: 15px;
+  }
+  
+  .about-me,
+  .firs-project,
+  .seconed-project,
+  .third-project {
+  margin: 30px;
+  font-size: 16px;
+  }
+  }
+
+  @media only screen and (max-width: 600px) {
+
+    #intro {
+      font-size: 30px;
+    }
+  
+    .nav {
+      font-size: 16px;
+    }
+  
+    .nav li {
+      margin-right: 20px;
+    }
+  
+    .about-me,
+    .firs-project,
+    .seconed-project,
+    .third-project {
+      margin: 20px;
+      padding: 10px;
+    }
+  
+    .subminder-img {
+      width: 100%;
+    }
+  
+  }
