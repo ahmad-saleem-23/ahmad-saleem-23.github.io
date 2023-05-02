@@ -130,9 +130,20 @@ body {
   transition: box-shadow 0.3s ease-in-out;
   box-shadow: 0 0 10px rgba(230, 215, 8, 0.5);
 }
+
+.logo-2{
+  height: 20px;
+  width: 20px;
+}
 .subminder-img{
   width: 950px;
 }
+
+.logo-2:hover{
+  transition: box-shadow 0.3s ease-in-out;
+  box-shadow: 0 0 10px rgba(230, 215, 8, 0.5);
+}
+
 
 button {
   background-color: #000;
