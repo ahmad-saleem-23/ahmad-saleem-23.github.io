@@ -79,6 +79,13 @@ body {
   color: #000;
 }
 
+.about-me{
+  background-color: #fff;
+  color: #000;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(230, 215, 8, 0.2);
+  transition: box-shadow 0.3s ease-in-out;}
 .firs-project{}
 .seconed-project{}
 .third-project{}
