@@ -6,9 +6,9 @@
 
 body {
   background-image: var(--background-image);
-  background-size: auto;
+  background-size: cover ;
   background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-position: center;
   text-align: justify;
   background-attachment: fixed;
   padding: 0;
